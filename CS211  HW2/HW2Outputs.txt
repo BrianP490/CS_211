@@ -1,0 +1,120 @@
+HW2 Outputs
+Brian Perez 
+10/11/19
+
+[perez490@empress CS211]$ g++ -std=c++11 RestaurantReservations.cpp Restaurant.cpp Reservation.cpp hw2M.cpp
+[perez490@empress CS21./a.out
+
+PrintAllRestaurants:
+Restaurant          City, Address                 Type        Capacity
+-------------------------------------------------------------------------
+LaPizzeria          SanDiego, 4356NobelDr         italian     10
+Civico              SanDiego, 8765RegentsRd       italian     20
+OnBorder            SanDiego, 101DoveSt           mexican     20
+Ortega              SanDiego, 3465RegentsRd       mexican     30
+OlivioRistorante    Carlsbad, 4320CaminoDr        italian     15
+MariaRistorante     Carlsbad, 6534SpringburstDr   italian     10
+Agave               Carlsbad, 8764CreekViewBlvd   mexican     30
+Barrio              Carlsbad, 5Broadway           mexican     30
+
+Find Table SanDiego italian 10 5
+LaPizzeria
+Civico
+
+Find Table SanDiego italian 15 5
+Civico
+
+Find Table SanDiego italian 10 5
+No restaurant can accommodate such a group at this time, check another time.
+
+Find Table SanDiego italian 10 6
+LaPizzeria
+Civico
+
+Find Table SanDiego italian 5 7
+LaPizzeria
+Civico
+
+Find Table SanDiego mexican 10 8
+OnBorder
+Ortega
+
+Find Table SanDiego mexican 10 8
+OnBorder
+Ortega
+
+Find Table SanDiego mexican 2 8
+Ortega
+
+Find Table Carlsbad mexican 4 8
+Agave
+Barrio
+
+Find Table Carlsbad mexican 20 7
+Agave
+Barrio
+
+Find Table Carlsbad mexican 5 7
+Agave
+
+Find Table Carlsbad italian 5 6
+OlivioRistorante
+MariaRistorante
+
+Find Table at Restaurant LaPizzeria for 2:
+You can reserve a table for 2 at LaPizzeria at 7:00 pm 8:00 pm
+
+Find Table at Restaurant LaPizzeria for 3:
+You can reserve a table for 3 at LaPizzeria at 7:00 pm 8:00 pm
+
+Find Table at Restaurant LaPizzeria for 3:
+You can reserve a table for 3 at LaPizzeria at 8:00 pm
+
+Find Table at Restaurant Agave for 26:
+You can reserve a table for 26 at Agave at 5:00 pm 6:00 pm 8:00 pm
+
+Find Table at Restaurant LaPizzeria for 8:
+LaPizzeria does not have such availability.
+
+Printing Restaurant Reservations for: LaPizzeria
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+100                 John                858-334-3334        10       5:00 PM
+120                 Andrea              513-984-7878        10       6:00 PM
+130                 Amy                 838-234-3111        5        7:00 PM
+240                 Carolyn             613-084-7898        2        7:00 PM
+250                 Edward              313-284-0087        3        7:00 PM
+260                 Michael             215-487-1082        3        8:00 PM
+
+Printing Restaurant Reservations for: Civico
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+110                 Jamie               316-324-1234        15       5:00 PM
+
+Printing Restaurant Reservations for: Ortega
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+160                 Kathy               617-682-5148        2        8:00 PM
+
+Printing Restaurant Reservations for: OlivioRistorante
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+210                 Courtney            229-456-1865        5        6:00 PM
+220                 Patrick             665-102-0876        5        6:00 PM
+
+Printing Restaurant Reservations for: Agave
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+200                 Joe                 399-300-1848        5        7:00 PM
+270                 Joe                 615-233-1065        26       5:00 PM
+
+Printing Restaurant Reservations for: Barrio
+Reservation         Contact             Phone               Group    Time
+-----------------------------------------------------------------------------
+170                 Jenna               633-782-9848        4        8:00 PM
+180                 Davina              315-380-9848        20       7:00 PM
+190                 Pete                215-380-9845        6        7:00 PM
+
+Printing Restaurant Reservations for: Season23
+There are no restaurant reservations for the restaurant.
+[perez490@empress CS211]$
