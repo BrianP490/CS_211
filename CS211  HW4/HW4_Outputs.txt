@@ -1,0 +1,93 @@
+Brian Perez - HW3 OUTPUTS
+CS211
+12/4/19
+
+PART 1:
+[perez490@empress CS211]$ g++ -std=c++11 DynStack.cpp EquallyBalanced.cpp
+[perez490@empress CS211]$ ./a.out
+Enter a string to check if the delimiters are balanced.
+While(a==b){a++;
+Extra openning delimiter. Not Equal.
+
+Enter a string to check if the delimiters are balanced.
+[A*(B+2)-{(3/C+(E-F))+[(E*3)-4]}]
+The delimiters are properly balanced.
+[perez490@empress CS211]$ ./a.out
+Enter a string to check if the delimiters are balanced.
+if(a<(b*c)))
+Extra ending delimiter. Not balanced
+
+Enter a string to check if the delimiters are balanced.
+{3+4+5+6-7]
+Delimiters are not balanced. Mismatch.
+
+Enter a string to check if the delimiters are balanced.
+[A*(E+2)-((G*3+(E-B))+[(E*3)-4]}]
+Delimiters are not balanced. Mismatch.
+
+Enter a string to check if the delimiters are balanced.
+A+B+C
+The delimiters are properly balanced.
+[perez490@empress CS211]$ ./a.out
+Enter a string to check if the delimiters are balanced.
+(a+b+c*(d-2]))
+Delimiters are not balanced. Mismatch.
+
+Enter a string to check if the delimiters are balanced.
+[e-f)
+Delimiters are not balanced. Mismatch.
+
+Enter a string to check if the delimiters are balanced.
+[[()()])
+Delimiters are not balanced. Mismatch.
+
+Enter a string to check if the delimiters are balanced.
+(9+10)
+The delimiters are properly balanced.
+[perez490@empress CS211]$
+
+
+
+PART 2:
+[perez490@empress CS211]$ g++ -std=c++11 DynQue.cpp QueGen.cpp
+[perez490@empress CS211]$ ./a.out
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+BBA
+BBB
+BBC
+BCA
+BCB
+BCC
+CAA
+CAB
+CAC
+CBA
+CBB
+CBC
+CCA
+CCB
+CCC
+[perez490@empress CS211]$
