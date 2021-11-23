@@ -1,0 +1,153 @@
+Brian Perez 
+CS 211
+11/18/19
+HW3 Outputs
+[perez490@empress HW3]$ g++ -std=c++11 LinkedL.cpp LinkedLM.cpp
+[perez490@empress HW3]$ ./a.out
+------------------------------------------
+Reading from arrays into list and printing list1
+Printing Linked List:
+1. Jim Meyer, 337-465-2345
+2. Joe Didier, 352-654-1983
+3. Mayssaa Najjar, 878-635-1234
+
+------------------------------------------
+Adding records to list1 and printing list1
+Printing Linked List:
+1. Adam James, 202-872-1010
+2. Henry Hatch, 617-227-5452
+3. Jamie Roberts, 202-832-1560
+4. Jim Meyer, 337-465-2345
+5. Joe Didier, 352-654-1983
+6. Kevin Etheredge, 617-437-5454
+7. Mayssaa Najjar, 878-635-1234
+8. Nancy Garcia, 617-227-5454
+9. Peter Anderson, 352-654-2000
+10. Xavier Perez, 352-654-1983
+11. Yara Mendiola, 667-277-1454
+
+------------------------------------------
+Printing list1 backwards
+Yara Mendiola, 667-277-1454
+Xavier Perez, 352-654-1983
+Peter Anderson, 352-654-2000
+Nancy Garcia, 617-227-5454
+Mayssaa Najjar, 878-635-1234
+Kevin Etheredge, 617-437-5454
+Joe Didier, 352-654-1983
+Jim Meyer, 337-465-2345
+Jamie Roberts, 202-832-1560
+Henry Hatch, 617-227-5452
+Adam James, 202-872-1010
+
+------------------------------------------
+Searching for specific people in list1
+Nancy Garcia was found in Node: 8
+Kevin Etheredge was found in Node: 6
+Jamie Roberts was found in Node: 3
+Error, no record was found for: Julia Sarkis
+------------------------------------------
+Updating records in list1 and printing list
+Peter Anderson's number was changed.
+Nancy Garcia's number was changed.
+Jamie Roberts's number was changed.
+Error, no record was found for: Jamie Garcia
+------------------------------------------
+Printing Linked List:
+1. Adam James, 202-872-1010
+2. Henry Hatch, 617-227-5452
+3. Jamie Roberts, 202-447-1234
+4. Jim Meyer, 337-465-2345
+5. Joe Didier, 352-654-1983
+6. Kevin Etheredge, 617-437-5454
+7. Mayssaa Najjar, 878-635-1234
+8. Nancy Garcia, 345-467-1234
+9. Peter Anderson, 989-876-1234
+10. Xavier Perez, 352-654-1983
+11. Yara Mendiola, 667-277-1454
+
+------------------------------------------
+Adding nodes to list2 and printing list 2
+Printing Linked List:
+1. Adam Sage, 202-857-1510
+2. Mary Mitchell, 617-227-5454
+
+Mayssaa Najjar was deleted from list.
+Adam James was deleted from list.
+Yara Mendiola was deleted from list.
+Jamie Najjar was not found for deletion.
+------------------------------------------
+Printing list1 after removing some records
+Printing Linked List:
+1. Henry Hatch, 617-227-5452
+2. Jamie Roberts, 202-447-1234
+3. Jim Meyer, 337-465-2345
+4. Joe Didier, 352-654-1983
+5. Kevin Etheredge, 617-437-5454
+6. Nancy Garcia, 345-467-1234
+7. Peter Anderson, 989-876-1234
+8. Xavier Perez, 352-654-1983
+
+------------------------------------------
+Printing list2 after calling operator=
+Printing Linked List:
+1. Adam James, 202-872-1010
+2. Henry Hatch, 617-227-5452
+3. Jamie Roberts, 202-447-1234
+4. Jim Meyer, 337-465-2345
+5. Joe Didier, 352-654-1983
+6. Kevin Etheredge, 617-437-5454
+7. Mayssaa Najjar, 878-635-1234
+8. Nancy Garcia, 345-467-1234
+9. Peter Anderson, 989-876-1234
+10. Xavier Perez, 352-654-1983
+11. Yara Mendiola, 667-277-1454
+
+------------------------------------------
+Printing list2 after calling operator=
+Printing Linked List:
+1. Adam James, 202-872-1010
+2. Henry Hatch, 617-227-5452
+3. Jamie Roberts, 202-447-1234
+4. Jim Meyer, 337-465-2345
+5. Joe Didier, 352-654-1983
+6. Kevin Etheredge, 617-437-5454
+7. Mayssaa Najjar, 878-635-1234
+8. Nancy Garcia, 345-467-1234
+9. Peter Anderson, 989-876-1234
+10. Xavier Perez, 352-654-1983
+11. Yara Mendiola, 667-277-1454
+
+------------------------------------------
+Printing list3
+Printing Linked List:
+1. Adam James, 202-872-1010
+2. Henry Hatch, 617-227-5452
+3. Jamie Roberts, 202-447-1234
+4. Jim Meyer, 337-465-2345
+5. Joe Didier, 352-654-1983
+6. Kevin Etheredge, 617-437-5454
+7. Mayssaa Najjar, 878-635-1234
+8. Nancy Garcia, 345-467-1234
+9. Peter Anderson, 989-876-1234
+10. Xavier Perez, 352-654-1983
+11. Yara Mendiola, 667-277-1454
+
+------------------------------------------
+Printing list3 after reversing it
+Printing Linked List:
+1. Yara Mendiola, 667-277-1454
+2. Xavier Perez, 352-654-1983
+3. Peter Anderson, 989-876-1234
+4. Nancy Garcia, 345-467-1234
+5. Mayssaa Najjar, 878-635-1234
+6. Kevin Etheredge, 617-437-5454
+7. Joe Didier, 352-654-1983
+8. Jim Meyer, 337-465-2345
+9. Jamie Roberts, 202-447-1234
+10. Henry Hatch, 617-227-5452
+11. Adam James, 202-872-1010
+
+------------------------------------------
+Searching for specific person in list3
+Jamie Roberts was found in Node: 9
