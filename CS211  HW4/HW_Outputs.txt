@@ -2,7 +2,7 @@ Brian Perez - HW3 OUTPUTS
 CS211
 12/4/19
 
-PART 1:
+PART 1 Outputs:
 [perez490@empress CS211]$ g++ -std=c++11 DynStack.cpp EquallyBalanced.cpp
 [perez490@empress CS211]$ ./a.out
 Enter a string to check if the delimiters are balanced.
@@ -48,7 +48,7 @@ The delimiters are properly balanced.
 
 
 
-PART 2:
+PART 2 Outputs:
 [perez490@empress CS211]$ g++ -std=c++11 DynQue.cpp QueGen.cpp
 [perez490@empress CS211]$ ./a.out
 A

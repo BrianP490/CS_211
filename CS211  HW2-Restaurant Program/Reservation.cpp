@@ -11,7 +11,7 @@ This is the Reservation implementation file where all of the Reservation class m
 
 using namespace std;
 
-long Reservation::nextReservationNum = 100;//initiolizes the static vatiable
+long Reservation::nextReservationNum = 100;//initializes the static vatiable
 //overloaded constructor initializes the informantion
 Reservation::Reservation(string cName, string cPhone, int gSize, int rTime):reservationNum(nextReservationNum)
 {
@@ -40,4 +40,3 @@ long Reservation::getResNum()const
 {
   return reservationNum;
 }
-
